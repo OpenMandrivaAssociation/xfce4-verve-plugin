@@ -1,3 +1,5 @@
+%define url_ver %(echo %{version} | cut -c 1-3)
+
 Summary:	A minicmd-plugin for the Xfce panel
 Name:		xfce4-verve-plugin
 Version:	1.0.0
