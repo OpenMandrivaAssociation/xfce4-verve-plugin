@@ -3,7 +3,7 @@
 Summary:	A minicmd-plugin for the Xfce panel
 Name:		xfce4-verve-plugin
 Version:	1.0.0
-Release:	%mkrel 3
+Release:	%mkrel 4
 License:	GPLv2+
 Group:		Graphical desktop/Xfce
 URL:		http://goodies.xfce.org/projects/panel-plugins/xfce4-verve-plugin
