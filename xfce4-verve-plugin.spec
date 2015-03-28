@@ -11,7 +11,7 @@ Source0:	http://archive.xfce.org/src/panel-plugins/xfce4-verve-plugin/%{url_ver}
 Requires:	xfce4-panel >= 4.8.0
 BuildRequires:	pkgconfig(libxfce4panel-1.0)
 BuildRequires:	pkgconfig(exo-1)
-BuildRequires:	pkgconfig(libxfcegui4-1.0)
+BuildRequires:	pkgconfig(libxfce4ui-1)
 BuildRequires:	pkgconfig(dbus-glib-1)
 BuildRequires:	pkgconfig(libpcre)
 BuildRequires:	perl(XML::Parser)
