@@ -39,4 +39,4 @@ feature more cool features, like autocompletion and command history.
 %doc AUTHORS README THANKS
 %{_bindir}/verve-focus
 %{_datadir}/xfce4/panel-plugins/*.desktop
-%{_libdir}/xfce4/panel-plugins/*
+%{_libexecdir}/xfce4/panel-plugins/*
