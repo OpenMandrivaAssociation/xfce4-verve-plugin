@@ -1,8 +1,9 @@
-%define url_ver %(echo %{version} | cut -c 1-3)
+%define url_ver %(echo %{version} | cut -d. -f 1,2)
+%define _disable_rebuild_configure 1
 
 Summary:	A minicmd-plugin for the Xfce panel
 Name:		xfce4-verve-plugin
-Version:	1.0.1
+Version:	1.1.0
 Release:	1
 License:	GPLv2+
 Group:		Graphical desktop/Xfce
@@ -38,6 +39,6 @@ feature more cool features, like autocompletion and command history.
 %files -f %{name}.lang
 %doc AUTHORS README THANKS
 %{_bindir}/verve-focus
-%{_datadir}/xfce4/panel-plugins/*.desktop
-%{_libexecdir}/xfce4/panel-plugins/*
+%{_datadir}/xfce4/panel/plugins/*.desktop
+%{_libdir}/xfce4/panel/plugins/*.so
 
