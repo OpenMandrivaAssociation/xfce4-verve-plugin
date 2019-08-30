@@ -40,7 +40,5 @@ feature more cool features, like autocompletion and command history.
 
 %files -f %{name}.lang
 %doc AUTHORS README THANKS
-%{_bindir}/verve-focus
 %{_datadir}/xfce4/panel/plugins/*.desktop
 %{_libdir}/xfce4/panel/plugins/*.so
-
