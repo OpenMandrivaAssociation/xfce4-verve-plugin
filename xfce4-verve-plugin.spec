@@ -39,6 +39,6 @@ feature more cool features, like autocompletion and command history.
 %find_lang %{name}
 
 %files -f %{name}.lang
-%doc AUTHORS README THANKS
+%doc AUTHORS README* THANKS
 %{_datadir}/xfce4/panel/plugins/*.desktop
 %{_libdir}/xfce4/panel/plugins/*.so
