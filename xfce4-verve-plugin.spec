@@ -3,7 +3,7 @@
 
 Summary:	A minicmd-plugin for the Xfce panel
 Name:		xfce4-verve-plugin
-Version:	2.0.0
+Version:	2.0.1
 Release:	1
 License:	GPLv2+
 Group:		Graphical desktop/Xfce
