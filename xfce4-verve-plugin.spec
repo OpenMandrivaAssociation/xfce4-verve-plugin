@@ -7,7 +7,7 @@ Version:	2.0.3
 Release:	1
 License:	GPLv2+
 Group:		Graphical desktop/Xfce
-URL:		http://goodies.xfce.org/projects/panel-plugins/xfce4-verve-plugin
+URL:		https://goodies.xfce.org/projects/panel-plugins/xfce4-verve-plugin
 Source0:	http://archive.xfce.org/src/panel-plugins/xfce4-verve-plugin/%{url_ver}/%{name}-%{version}.tar.bz2
 Requires:	xfce4-panel
 Requires:	exo
