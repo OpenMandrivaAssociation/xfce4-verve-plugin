@@ -11,6 +11,11 @@ URL:		https://goodies.xfce.org/projects/panel-plugins/xfce4-verve-plugin
 Source0:	https://archive.xfce.org/src/panel-plugins/xfce4-verve-plugin/%{url_ver}/%{name}-%{version}.tar.bz2
 Requires:	xfce4-panel
 Requires:	exo
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	pkgconfig(libxfce4panel-2.0)
 BuildRequires:	pkgconfig(exo-2)
 BuildRequires:	pkgconfig(libxfce4ui-2)
